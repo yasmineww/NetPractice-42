@@ -41,6 +41,10 @@ This layer performs 3 basic functions :
 
 Responsible for **session management**, **authentication** and finally **authorization**. When two applications (running on different devices) want to communicate, the Session Layer starts the process by establishing a session. This involves setting up the parameters and rules for communication, ensuring both sides are synchronized and agree on how data will be exchanged. During the session, session layer ensures that data is exchanged smoothly, keeps the session organized by implementing mechanisms for recovery checkpoints preventing data loss, and manages the communication's direction. Once the communication is complete, the Session Layer is responsible for properly terminating the session, and releasing the allocated resources. It uses protocols like RTCP and L2TP.
 
+<p align="center">
+<img src="/media/Encapsulation.png" width=70% height=70%>
+</p>
+
 ## Transport layer - Segments : TCP/ UDP, port number and sequence number
 
 This layer is basically the same as when you  hand over a parcel to a certain shipping company, and have to decide which company to choose. Either the fastest or the most reliable, in our case. TCP and UDP protocols are your shipping companies, and both will get your packet delivered but offer different services. Now before we get into the details of both TCP and UDP protocols, let's explore what the transport layer has more to offer.
