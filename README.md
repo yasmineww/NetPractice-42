@@ -7,8 +7,8 @@ In order to stay connected to the internet and correctly send your messages or a
 
 The Internet’s model is organized in a stack of 5 distinct layers. When Internet protocols first came to life, several models for were being developed. Among them, a model in 7 layers: the **OSI (Open Systems Interconnection)** model. However, the **OSI** was never completely adopted for the Internet. Although the OSI, as a theory, is still used in textbooks and training courses because of its early impact on network education.
 
-<p align="">
-<img src="/media/Internet layers.png" width=40% height=40%>
+<p align="center">
+<img src="/media/Internet layers.png" width=50% height=50%>
 </p>
 
 Now let's discover how a packet gets transmitted along a network:
